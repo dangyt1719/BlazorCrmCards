@@ -1,5 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\aziat\source\repos\WebApplication1\bin\Release\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\aziat\source\repos\WebApplication1\obj\Release\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\aziat\Documents\GitHub\BlazorCrmCards\WebApplication1\bin\Release\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\aziat\Documents\GitHub\BlazorCrmCards\WebApplication1\obj\Release\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="C:\Users\aziat\.nuget\packages\syncfusion.blazor\20.1.0.59\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="C:\Users\aziat\.nuget\packages\syncfusion.blazor.themes\20.1.0.59\build\..\staticwebassets\" />
 </StaticWebAssets>

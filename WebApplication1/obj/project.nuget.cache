@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V6F3wVEicqo0n6jFWWxPDihgfT9NHi5A+/nXiXb22sPMtcmy0zayURlYaxOwWSvvOm+ZSbcEF6FR2xpWJYfGAA==",
+  "dgSpecHash": "5cxecgSKNp20VbBLpRrfy01XZpSG6Bt7hi17cb7Wc7P04jYclt4ZpatRKhU3ufSzIgwQYz+RtiLARAs94RXHaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aziat\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\aziat\\Documents\\GitHub\\BlazorCrmCards\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aziat\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.6\\microsoft.aspnetcore.authorization.5.0.6.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.6\\microsoft.aspnetcore.components.5.0.6.nupkg.sha512",
@@ -33,6 +33,7 @@
     "C:\\Users\\aziat\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\syncfusion.blazor\\20.1.0.59\\syncfusion.blazor.20.1.0.59.nupkg.sha512",
+    "C:\\Users\\aziat\\.nuget\\packages\\syncfusion.blazor.themes\\20.1.0.59\\syncfusion.blazor.themes.20.1.0.59.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\syncfusion.excelexport.net.core\\20.1.0.59\\syncfusion.excelexport.net.core.20.1.0.59.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\syncfusion.licensing\\20.1.0.59\\syncfusion.licensing.20.1.0.59.nupkg.sha512",
     "C:\\Users\\aziat\\.nuget\\packages\\syncfusion.pdfexport.net.core\\20.1.0.59\\syncfusion.pdfexport.net.core.20.1.0.59.nupkg.sha512",

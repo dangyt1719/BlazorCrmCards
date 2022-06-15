@@ -354,6 +354,21 @@
           "buildMultiTargeting/Syncfusion.Blazor.props": {}
         }
       },
+      "Syncfusion.Blazor.Themes/20.1.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Themes.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
+        }
+      },
       "Syncfusion.ExcelExport.Net.Core/20.1.0.59": {
         "type": "package",
         "dependencies": {
@@ -800,6 +815,21 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Syncfusion.Blazor.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Themes/20.1.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Themes.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
         }
       },
       "Syncfusion.ExcelExport.Net.Core/20.1.0.59": {
@@ -1749,6 +1779,44 @@
         "syncfusion_logo.png"
       ]
     },
+    "Syncfusion.Blazor.Themes/20.1.0.59": {
+      "sha512": "RdlUDshNMPNg9fReILwjPjBfhB4EdtYefPqNDrR0VcwXNm5UiZ72ITS0gHp6J/uVpaFRXgAzzOfUw7KR7xmhlw==",
+      "type": "package",
+      "path": "syncfusion.blazor.themes/20.1.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Themes.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Themes.props",
+        "buildTransitive/Syncfusion.Blazor.Themes.props",
+        "lib/net5.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net5.0/Syncfusion.Blazor.Themes.xml",
+        "lib/net6.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net6.0/Syncfusion.Blazor.Themes.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Themes.xml",
+        "staticwebassets/bootstrap-dark.css",
+        "staticwebassets/bootstrap.css",
+        "staticwebassets/bootstrap4.css",
+        "staticwebassets/bootstrap5-dark.css",
+        "staticwebassets/bootstrap5.css",
+        "staticwebassets/fabric-dark.css",
+        "staticwebassets/fabric.css",
+        "staticwebassets/fluent-dark.css",
+        "staticwebassets/fluent.css",
+        "staticwebassets/highcontrast.css",
+        "staticwebassets/material-dark.css",
+        "staticwebassets/material.css",
+        "staticwebassets/tailwind-dark.css",
+        "staticwebassets/tailwind.css",
+        "syncfusion.blazor.themes.20.1.0.59.nupkg.sha512",
+        "syncfusion.blazor.themes.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "Syncfusion.ExcelExport.Net.Core/20.1.0.59": {
       "sha512": "OkQA3s9JZEzsdlOM4P3BCPN8H5RSFu85R4uU/eFyOaSmb1/qLUMKSACKz3g4Jq7Zd0Ia33QX5Y/4vga2TjlUKA==",
       "type": "package",
@@ -1975,6 +2043,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.6",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.6",
       "Syncfusion.Blazor >= 20.1.0.59",
+      "Syncfusion.Blazor.Themes >= 20.1.0.59",
       "Syncfusion.Licensing >= 20.1.0.59",
       "System.Net.Http.Json >= 5.0.0"
     ]
@@ -1985,11 +2054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aziat\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\aziat\\Documents\\GitHub\\BlazorCrmCards\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\aziat\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\aziat\\Documents\\GitHub\\BlazorCrmCards\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\aziat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aziat\\source\\repos\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\aziat\\Documents\\GitHub\\BlazorCrmCards\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aziat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2028,6 +2097,10 @@
             "version": "[5.0.6, )"
           },
           "Syncfusion.Blazor": {
+            "target": "Package",
+            "version": "[20.1.0.59, )"
+          },
+          "Syncfusion.Blazor.Themes": {
             "target": "Package",
             "version": "[20.1.0.59, )"
           },

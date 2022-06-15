@@ -18,7 +18,7 @@ namespace WebApplication1
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NTE2ODY0QDMxMzkyZTMzMmUzMEdFY1BzenZoOFkvbXUxRzBWZFVURWdROTFZTy9xOHo1WXFPSnprQnpwVFk9");
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
-            builder.Services.AddSyncfusionBlazor();
+            builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
